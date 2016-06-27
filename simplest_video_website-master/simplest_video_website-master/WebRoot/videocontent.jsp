@@ -45,7 +45,7 @@
 					</a>
 			    	<!-- Parse RTMP URL -->
 			    	<script>
-					str='${video.url}';
+					str='${video.url}';//获取RTMP地址
 					arr=str.split('/');
 					//rtmp://server/app/playpath
 					protocol=arr[0];
